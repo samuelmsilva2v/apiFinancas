@@ -1,5 +1,6 @@
 package com.example.demo.domain.models.entities;
 
+import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;
@@ -36,7 +37,7 @@ public class Conta {
 	private Date data;
 
 	@Column(name = "valor", precision = 10, scale = 2, nullable = false)
-	private Double valor;
+	private BigDecimal valor;
 
 	@Enumerated(EnumType.STRING)
 	@Column(name = "tipo", nullable = false)
