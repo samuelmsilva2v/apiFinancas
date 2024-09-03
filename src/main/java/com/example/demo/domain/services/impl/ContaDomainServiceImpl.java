@@ -72,7 +72,7 @@ public class ContaDomainServiceImpl implements ContaDomainService {
 		List<ContaResponseDto> response = new ArrayList<ContaResponseDto>();
 
 		for (Conta conta : contas) {
-			response.add(modelMapper.map(response, ContaResponseDto.class));
+			response.add(modelMapper.map(conta, ContaResponseDto.class));
 		}
 
 		return response;
