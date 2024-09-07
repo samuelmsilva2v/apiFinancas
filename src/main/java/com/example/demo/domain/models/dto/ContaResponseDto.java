@@ -14,5 +14,5 @@ public class ContaResponseDto {
 	private Date data;
 	private Double valor;
 	private String tipo;
-	private List<CategoriaResponseDto> categorias;
+	private List<CategoriaResponseDto> categoria;
 }

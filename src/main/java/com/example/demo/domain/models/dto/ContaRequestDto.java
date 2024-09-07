@@ -12,5 +12,4 @@ public class ContaRequestDto {
 	private Date data;
 	private Double valor;
 	private String tipo;
-	private UUID[] categoria;
 }
