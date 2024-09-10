@@ -1,7 +1,6 @@
 package com.example.demo.domain.models.dto;
 
 import java.util.Date;
-import java.util.UUID;
 
 import lombok.Data;
 

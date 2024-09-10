@@ -1,24 +1,32 @@
 version: '3.8'
-
-
 services:
-    db:
-       image: postgres:16
-       container_name: postgres_db
-       environment:
-            POSTGRES_USER: user
-            POSTGRES_PASSWORD: password
-            POSTGRES_DB: bd_apifinancas
-       ports:
-            - "5432:5432"
-       volumes:
-            - postgres_data:/var/lib/postgresql/data
-       networks:
-            - my_network
-
+   app:
+      build:
+         context: .
+         dockerfile: Dockerfile
+      container_name: spring_app
+      depends_on:
+         - db
+      ports:
+         - "8082:8082"
+      networks:
+         - my_network
+   db:
+      image: postgres:16
+      container_name: postgres_db
+      environment:
+           POSTGRES_USER: user
+           POSTGRES_PASSWORD: password
+           POSTGRES_DB: bd_apifinancas
+      ports:
+           - "5432:5432"
+      volumes:
+           - postgres_data:/var/lib/postgresql/data
+      networks:
+           - my_network
 volumes:
-    postgres_data:
-    
+   postgres_data:
+  
 networks:
-     my_network:
-         driver: bridge
+    my_network:
+        driver: bridge
