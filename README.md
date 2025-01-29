@@ -15,22 +15,22 @@ A API de Controle de Finanças oferece as seguintes funcionalidades:
 ## Endpoints
 
 ### Endpoints de contas
-| Método | Endpoint             | Descrição                   |
-|--------|-----------------------|-----------------------------|
-| POST   | `/api/contas`      | Registra uma nova conta       |
-| GET    | `/api/contas`      | Consulta todas as contas   |
-| GET    | `/api/contas/{id}` | Detalha uma conta por ID  |
-| PUT    | `/api/contas/{id}` | Atualiza uma conta        |
-| DELETE | `/api/contas/{id}` | Remove uma conta        |
+| Método | Endpoint           | Descrição                |
+|--------|--------------------|--------------------------|
+| POST   | `/api/contas`      | Registra uma nova conta  |
+| GET    | `/api/contas`      | Consulta todas as contas |
+| GET    | `/api/contas/{id}` | Detalha uma conta por ID |
+| PUT    | `/api/contas/{id}` | Atualiza uma conta       |
+| DELETE | `/api/contas/{id}` | Remove uma conta         |
 
 ### Endpoints de categorias
-| Método | Endpoint             | Descrição                   |
-|--------|-----------------------|-----------------------------|
-| POST   | `/api/categorias`      | Registra uma nova categoria      |
-| GET    | `/api/categorias`      | Consulta todas as categorias   |
-| GET    | `/api/categorias/{id}` | Detalha uma categoria por ID  |
-| PUT    | `/api/categorias/{id}` | Atualiza uma categoria        |
-| DELETE | `/api/categorias/{id}` | Remove uma categoria        |
+| Método | Endpoint               | Descrição                    |
+|--------|------------------------|------------------------------|
+| POST   | `/api/categorias`      | Registra uma nova categoria  |
+| GET    | `/api/categorias`      | Consulta todas as categorias |
+| GET    | `/api/categorias/{id}` | Detalha uma categoria por ID |
+| PUT    | `/api/categorias/{id}` | Atualiza uma categoria       |
+| DELETE | `/api/categorias/{id}` | Remove uma categoria         |
 
 ## Tecnologias Utilizadas:
 - **Java 17**
