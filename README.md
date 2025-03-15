@@ -1,4 +1,9 @@
 # API de Controle de Finanças
+![GitHub repo size](https://img.shields.io/github/repo-size/samuelmsilva2v/apiFinancas?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/samuelmsilva2v/apiFinancas?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/samuelmsilva2v/apiFinancas?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/samuelmsilva2v/apiFinancas?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/samuelmsilva2v/apiFinancas?style=for-the-badge)
 
 [🇺🇸 Read in English](#financial-control-api)
 
