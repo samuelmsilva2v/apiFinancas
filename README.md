@@ -7,7 +7,7 @@
 
 [🇺🇸 Read in English](#financial-control-api)
 
-API RESTful desenvolvida em Spring Boot para o gerenciamento de finanças pessoais. Ela permite o controle de receitas, despesas, categorias de transações e o saldo total de um usuário.
+💸 API RESTful desenvolvida em Spring Boot para o gerenciamento de finanças pessoais. Ela permite o controle de receitas, despesas, categorias de transações e o saldo total de um usuário.
 
 ## Funcionalidades
 
@@ -38,22 +38,30 @@ A API de Controle de Finanças oferece as seguintes funcionalidades:
 | DELETE | `/api/categorias/{id}` | Remove uma categoria         |
 
 ## Tecnologias Utilizadas:
-- **Java 17**
-- **Spring Boot**
-- **Spring Data JPA**
-- **Hibernate**
-- **PostgreSQL**
-- **Swagger**
-- **Lombok**
-- **Model Mapper**
-- **Bean Validation (javax.validation)**
-- **Docker**
+* Java 17
+* Spring Boot
+* Spring Data JPA
+* Hibernate
+* PostgreSQL
+* Swagger
+* Lombok
+* Model Mapper
+* Bean Validation (javax.validation)
+* Docker
+#### Front-end:
+* Angular 19
+* Bootstrap
+* HttpClient
 
 ## Instalação:
 
-##### Construindo a imagem no Docker:
-#### 1. No terminal, navegue até a pasta do projeto.
-#### 2. Execute o comando abaixo para criar a imagem Docker:
+#### **1. Clonar o Repositório do Back-end**
+```bash
+ git clone https://github.com/samuelmsilva2v/apiFinancas.git
+ cd apiFinancas
+```
+
+#### **2. Execute o comando abaixo para criar a imagem Docker:**
 ```bash
 docker build -t apifinancas .
 ```
@@ -61,22 +69,37 @@ docker build -t apifinancas .
 ```bash
 docker-compose up -d
 ```
+Acesse a documentação no Swagger: http://localhost:8082/swagger-ui/index.html#
 
-#### 3. Acesse a documentação no Swagger: http://localhost:8082/swagger-ui/index.html#
+**3. Clonar o Repositório do Front-end**
+```bash
+ git clone https://github.com/samuelmsilva2v/webFinancas.git
+ cd webFinancas
+```
+
+**4. Instale as dependências do projeto:**
+```bash
+npm install
+```
+
+**5. Executar o front-end:**
+```bash
+$ ng s -o 
+```
+Isso irá iniciar o servidor de desenvolvimento na URL http://localhost:4200/. Você pode abrir seu navegador e acessar essa URL para visualizar a aplicação.
 
 ### API rodando integrada com o front-end
 ![](https://github.com/samuelmsilva2v/assets/blob/main/apiFinancas/Captura%20de%20tela%202024-10-31%20184207.png)
 ![](https://github.com/samuelmsilva2v/assets/blob/main/apiFinancas/Captura%20de%20tela%202024-10-31%20184231.png)
 
-[Repositório do front-end](https://github.com/samuelmsilva2v/webFinancas)
-
+#### [Repositório do front-end](https://github.com/samuelmsilva2v/webFinancas)
 ---
 
 # Financial Control API
 
 [🇧🇷 Leia em Português](#api-de-controle-de-finanças)
 
-A RESTful API developed in Spring Boot for personal finance management. It allows users to track income, expenses, transaction categories, and the total balance.
+💸 A RESTful API developed in Spring Boot for personal finance management. It allows users to track income, expenses, transaction categories, and the total balance.
 
 ## Features
 
@@ -107,36 +130,60 @@ The Financial Control API offers the following features:
 | DELETE | `/api/categorias/{id}`| Deletes a category            |
 
 ## Technologies Used:
-- **Java 17**
-- **Spring Boot**
-- **Spring Data JPA**
-- **Hibernate**
-- **PostgreSQL**
-- **Swagger**
-- **Lombok**
-- **Model Mapper**
-- **Bean Validation (javax.validation)**
-- **Docker**
+#### Back-end:
+* Java 17
+* Spring Boot
+* Spring Data JPA
+* Hibernate
+* PostgreSQL
+* Swagger
+* Lombok
+* Model Mapper
+* Bean Validation (javax.validation
+* Docker
+#### Front-end:
+* Angular 19
+* Bootstrap
+* HttpClient
 
 ## Installation:
 
-### Building the Docker Image:
-1. In the terminal, navigate to the project folder.
-2. Run the command below to create the Docker image:
+#### **1. Clone the Back-end Repository**
+```bash
+ git clone https://github.com/samuelmsilva2v/apiFinancas.git
+ cd apiFinancas
+```
+
+#### **2. Run the command below to create the Docker image:**
 ```bash
 docker build -t apifinancas
 ```
-
-### Running the Container
+##### Running the Container
 ```bash
 docker-compose up -d
 ```
+Access the Swagger documentation: http://localhost:8082/swagger-ui/index.html#
 
-#### 3. Access the Swagger documentation: http://localhost:8082/swagger-ui/index.html#
+**3. Clone the Front-end Repository**
+```bash
+git clone https://github.com/samuelmsilva2v/webFinancas.git
+cd webFinancas
+```
+
+**4. Install the project dependencies:**
+```bash
+npm install
+```
+
+**5. Run the front-end:**
+```bash
+ng s -o
+```
+This will start the development server at URL http://localhost:4200/. You can open your browser and access this URL to view the application.
 
 ### API Running Integrated with the Front-End
 ![](https://github.com/samuelmsilva2v/assets/blob/main/apiFinancas/Captura%20de%20tela%202024-10-31%20184207.png)
 ![](https://github.com/samuelmsilva2v/assets/blob/main/apiFinancas/Captura%20de%20tela%202024-10-31%20184231.png)
 
-[Front-End Repository](https://github.com/samuelmsilva2v/webFinancas)
+#### [Front-End Repository](https://github.com/samuelmsilva2v/webFinancas)
 
